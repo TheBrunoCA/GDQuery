@@ -13,6 +13,7 @@ It uses a C# backend to leverage ADO.NET providers, offering a clean GDScript AP
 1.  Install the plugin from the Godot Asset Library or by copying the `addons/gdquery` folder into your project's root.
 2.  Enable the plugin in `Project -> Project Settings -> Plugins`. This will add the `GDQuery` autoload singleton.
 3.  **This plugin requires the .NET version of Godot.**
+    *   Compatible with Godot 4.5 and 4.6 dev.
 4.  You must add the appropriate ADO.NET database provider to your C# project. For example, to use SQLite, add the `Microsoft.Data.Sqlite` NuGet package.
 
 ### Basic Usage
@@ -116,6 +117,7 @@ func transfer_score():
 1.  Instale o plugin pela Godot Asset Library ou copiando a pasta `addons/gdquery` para a raiz do seu projeto.
 2.  Ative o plugin em `Projeto -> Configurações do Projeto -> Plugins`. Isso adicionará o autoload singleton `GDQuery`.
 3.  **Este plugin requer a versão .NET do Godot.**
+    *   Compatível com Godot 4.5 e 4.6 dev.
 4.  Você deve adicionar o provedor de banco de dados ADO.NET ao seu projeto C#. Por exemplo, para usar SQLite, adicione o pacote NuGet `Microsoft.Data.Sqlite`.
 
 ### Uso Básico
