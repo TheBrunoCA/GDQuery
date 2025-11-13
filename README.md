@@ -108,6 +108,8 @@ func transfer_score():
         print("Transaction failed and was rolled back.")
 ```
 
+As a safety measure, if a transaction object is freed before `commit_async()` or `rollback_async()` is called, it will be automatically rolled back to prevent open transactions.
+
 ---
 
 ## Português (BR)
@@ -210,3 +212,5 @@ func transfer_score():
     else:
         print("A transação falhou e foi revertida.")
 ```
+
+Como medida de segurança, se um objeto de transação for liberado antes que `commit_async()` ou `rollback_async()` seja chamado, um rollback automático será executado para evitar transações abertas.
